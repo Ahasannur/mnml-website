@@ -1,0 +1,33 @@
+.message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0;
+    margin-top: 100px;
+}
+
+.message h1 {
+    font-weight: 300;
+    font-size: 50px;
+    color: black;
+    letter-spacing: -2px;
+}
+
+.message h3 {
+    padding-top: 20px;
+    color: #43484D;
+}
+
+.message img {
+    padding-top: 20px;
+    width: 70px;
+}
+
+.message p {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #86939E;
+    line-height: 24px;
+}

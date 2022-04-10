@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Set the background's style */
+.form-container {
+    height: 100%;
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+/* Set the forms's style */
+.form {
+    width: 30%;
+    height: 70%;
+    border: 1px solid #030303;
+    background-color: #f1f1f1;
+    box-shadow: 10px 10px rgb(104, 171, 196);
+    margin-bottom: 25px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* Set the title's style */
+.form-title {
+    color: rgb(82, 82, 82);
+    font-size: 45px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+/* Set the input box's styling */
+.form-input-box {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #e2e2e2;
+}
+
+/* Set the input box's styling when clicked */
+.form-input-box:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set the individual inputs */
+.form-input {
+    width: 100%;
+    height: 20px;
+    padding: 15px 10px;
+}
+
+/* Set a style for the button */
+.form-btn {
+  background-color: #040faa;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  opacity:1;
+}
+
+/* Style the error message */
+.form-input-box p {
+  color: red;
+  font-size: 13px;
+}
+
+.form p{
+  color: red;
+}
